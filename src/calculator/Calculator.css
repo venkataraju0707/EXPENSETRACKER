@@ -1,0 +1,36 @@
+.calculator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.display {
+  width: 260px;
+  height: 40px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  text-align: right;
+  padding: 10px;
+  font-size: 20px;
+  background-color: #f3f3f3;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 60px);
+  gap: 10px;
+}
+
+button {
+  width: 60px;
+  height: 60px;
+  font-size: 20px;
+  background-color: #f3f3f3;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e0e0e0;
+}
